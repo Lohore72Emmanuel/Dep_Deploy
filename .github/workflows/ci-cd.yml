@@ -1,7 +1,5 @@
 name:ci-cd.yml
-   
-on: 
-   Workflow-dispatch
+   on: 
   push:
     branches:
       - main
