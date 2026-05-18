@@ -1,7 +1,8 @@
 name: Dep_deploy_Workflow
 
-on: workflow_dispatch
-  push:git push -u origin main
+on: 
+workflow_dispatch
+  push:
     branches:
       - main
       - Depjob-job
