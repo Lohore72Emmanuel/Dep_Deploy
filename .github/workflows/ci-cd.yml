@@ -1,6 +1,6 @@
 name: Dep_deploy_Workflow
 
-on:
+on: workflow_dispatch
   push:
     branches:
       - main
