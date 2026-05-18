@@ -1,5 +1,5 @@
-name:
-   ci-cd.yml
+name:ci-cd.yml
+   
 on: 
    Workflow-dispatch
   push:
