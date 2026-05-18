@@ -1,6 +1,6 @@
-name: Dep_deploy_Workflow
+name: Ci-CD.yml
 on: 
- workflow_dispatch
+   Workflow_dispatch
   push:
     branches:
       - main
