@@ -1,4 +1,4 @@
-name: Ci-CD.yml
+name: ci-cd.yml
 on: 
    Workflow_dispatch
   push:
