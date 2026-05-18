@@ -1,7 +1,6 @@
 name: Dep_deploy_Workflow
-
 on: 
- branch_protection_rule:
+ workflow_dispatch
   push:
     branches:
       - main
