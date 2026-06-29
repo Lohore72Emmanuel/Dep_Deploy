@@ -5,7 +5,7 @@ name:ci-cd.yml
       - main
       - Depjob-job
 
-jobs:
+jobs
 
   Depjob-job:
     runs-on: ubuntu-latest
