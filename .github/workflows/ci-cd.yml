@@ -1,4 +1,4 @@
- name: ci-cd.yml
+ name: dep_deploy
  
  On: 
   push:
