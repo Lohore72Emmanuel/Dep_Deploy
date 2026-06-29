@@ -1,5 +1,4 @@
 name: ci-cd.yml
-
 on:
   push:
     branches:
