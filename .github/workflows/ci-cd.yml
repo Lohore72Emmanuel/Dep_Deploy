@@ -1,5 +1,14 @@
-name:ci-cd.yml
-   on: 
+name: ci-cd.yml
+
+on:
+  push:
+    branches:
+      - main
+      - Depjob-job
+
+jobs:
+  Depjob-job:
+    runs-on: ubuntu-latest
   push:
     branches:
       - main
