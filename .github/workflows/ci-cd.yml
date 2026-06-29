@@ -1,6 +1,6 @@
- name: ci-cd.yml
- On:
-  
+  name: ci-cd.yml
+ 
+ On: 
   push:
     branches:
       - main
