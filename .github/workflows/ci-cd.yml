@@ -10,52 +10,31 @@ jobs:
   Depjob-job:
     runs-on: ubuntu-latest
 
-jobs:
-  Depjob-job:
-    runs-on: ubuntu-latest
-  push:
-    branches:
-      - main
-      - Depjob-job
-
-jobs
-
-  Depjob-job:
-    runs-on: ubuntu-latest
-
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Update packages
-        run: |
-          sudo apt-get update
+        run: sudo apt-get update
 
       - name: Install dependencies
-        run: |
-          sudo apt-get install -y curl
+        run: sudo apt-get install -y curl
 
       - name: Hello message
-        run: |
-          echo "Hello from GitHub Actions!"
+        run: echo "Hello from GitHub Actions!"
 
   test:
     runs-on: ubuntu-latest
     needs: Depjob-job
 
     steps:
-
       - name: Test check
-        run: |
-          echo "Running test job"
+        run: echo "Running test job"
 
   deploy:
     runs-on: ubuntu-latest
     needs: test
 
     steps:
-
       - name: Deploy application
-        run: |
-          echo "Deploying app"
+        run: echo "Deploying app"
